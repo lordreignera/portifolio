@@ -140,8 +140,26 @@
 </header>
 
 <!-- Hero Section -->
-<section id="hero" style="background: linear-gradient(135deg, var(--primary-color) 60%, var(--secondary-color) 100%);">
+<section id="hero">
     <style>
+        .hero-bg-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            opacity: 0.35;
+        }
+        #hero .container {
+            position: relative;
+            z-index: 2;
+        }
+        #hero {
+            position: relative;
+            overflow: hidden;
+        }
         .hero-title {
             color: #fff;
             font-size: 2.7rem;
@@ -175,13 +193,14 @@
             margin-top: 1.5rem;
         }
     </style>
+    <video class="hero-bg-video" src="/images/home.mp4" autoplay loop muted playsinline></video>
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-lg-8">
                 <h3 class="hero-title">Hi there, I am <span style="color:var(--accent-color);">Norah Era</span></h3>
                 <span class="hero-role">System Analyst &amp; Developer</span>
-                <p class="hero-desc">I innovate a solution to your Problem</p>
-                <a href="#works" class="btn-outline-accent hero-btn">View Projects</a>
+                <p class="hero-desc">I innovate a solution to your Problem 🚀</p>
+                <a href="#works" class="btn-outline-accent hero-btn">View My Projects</a>
                 <a href="#contact" class="btn btn-primary hero-btn">Let's Solve Your Problem</a>
             </div>
             <div class="col-lg-4 text-center">
@@ -225,7 +244,8 @@
 
 <!-- Projects Section -->
 <section id="works" style="background: linear-gradient(135deg, var(--primary-color) 60%, var(--secondary-color) 100%);">
-    <div class="container py-5">
+    <video class="hero-bg-video" src="/images/project.mp4" autoplay loop muted playsinline style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:0.35;"></video>
+    <div class="container py-5" style="position:relative;z-index:2;">
         <div class="section_title text-white mb-5">
             <h3>My Projects</h3>
         </div>
@@ -277,10 +297,14 @@
                 <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="32" height="32" onerror="this.style.display='none';this.parentNode.appendChild(document.createTextNode('Django'));"/><span>Django</span></div>
                 <div class="skill-card"><i class="fab fa-node-js"></i><span>Node.js</span></div>
                 <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="32" height="32" onerror="this.style.display='none';this.parentNode.appendChild(document.createTextNode('Express'));"/><span>Express</span></div>
-                <div class="skill-card"><span class="skill-badge">Ready to Learn Any</span></div>
+                <div class="skill-card"><span class="skill-badge">Ready to Learn More..</span></div>
             </div>
         </div>
         <style>
+            #works {
+                position: relative;
+                overflow: hidden;
+            }
             .projects-flex {
                 display: flex;
                 flex-wrap: wrap;
@@ -391,6 +415,10 @@
                     <li class="mb-3 d-flex align-items-center">
                         <span class="me-3"><i class="fa fa-phone"></i></span>
                         <a href="https://wa.me/256708356505" target="_blank">+256 708 356505 (WhatsApp)</a>
+                    </li>
+                    <li class="mb-3 d-flex align-items-center">
+                        <span class="me-3"><i class="fa fa-envelope"></i></span>
+                        <a href="mailto:norahnakamatte05@gmail.com">norahnakamatte05@gmail.com</a>
                     </li>
                     <li class="mb-3 d-flex align-items-center">
                         <span class="me-3"><i class="fa fa-linkedin"></i></span>
