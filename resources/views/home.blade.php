@@ -466,5 +466,10 @@
             </div>
         </div>
     </div>
+
+    <footer style="background: #0a1931; color: #fff; text-align: center; padding: 1.2rem 0; font-size: 1rem;">
+    All rights reserved &copy; eratechnologies.net 2025
+    </footer>
 </section>
 @endsection
+
