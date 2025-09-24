@@ -388,9 +388,9 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const text = `I’m Norah Era Nakamatte, a System Analyst and Developer passionate about turning challenges into practical digital solutions.
-                        With over two years of hands-on experience, I’ve designed and built systems in PHP/Laravel, Python/Django, and Node.js/Express—including audit platforms, hospital management systems, and multi-facility dashboards serving healthcare facilities across Uganda.
+                        With over two years of hands-on experience, I’ve designed and built systems in PHP/Laravel, Python/Django, and Node.js/Express—including audit system, hospital management system, and e-voting system that can be used different organizations.
                         I combine technical expertise with a business-school mindset—understanding your problem first, then designing the right technology to solve it. This approach was sharpened during my apprenticeship at Refactory Uganda, which blends software engineering with business thinking.
-                        I also volunteer at the Central Public Health Laboratories (CPHL), helping to improve digital health systems and integrations between laboratories and hospitals.
+                        I also volunteer at the Central Public Health Laboratories (CPHL), helping to implement and support digital health systems more so integrations between laboratory system ALIS and hospital system.
                         My goal is to create reliable, human-centered technology that empowers organizations to work smarter, make data-driven decisions, and deliver better services to their communities.`; 
         let i = 0;
         function typeWriter() {
