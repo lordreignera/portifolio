@@ -247,7 +247,7 @@
     <video class="hero-bg-video" src="/images/project.mp4" autoplay loop muted playsinline style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:0.35;"></video>
     <div class="container py-5" style="position:relative;z-index:2;">
         <div class="section_title text-white mb-5">
-            <h3>My Projects</h3>
+            <h3>My Projects And Tech Skills</h3>
         </div>
         <!-- Skills Section -->
         <div class="mb-5 text-center">
@@ -454,7 +454,7 @@
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send WhatsApp Message</button>
+                        <button type="submit" class="btn btn-primary">Send  Message</button>
                     </form>
                     <!-- CSRF Token for AJAX -->
                     <meta name="csrf-token" content="{{ csrf_token() }}">
